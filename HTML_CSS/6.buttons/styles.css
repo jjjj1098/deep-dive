@@ -1,0 +1,23 @@
+.a-button {
+    background-color: rgb(20, 40, 192); 
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    transition: opacity 1s, background-clor 1s; /* 투명도 변화에 걸리는 시간 */
+
+}
+
+.a-button:hover {
+    opacity: 0.7; /* 마우스 가져갔을때의 투명도 */
+    background-color: black;
+}
+.a-button:active {
+    opacity: 0.5; /* 클릭했을때의 투명도 */
+}
