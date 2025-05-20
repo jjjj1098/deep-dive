@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .div1 {
+            float: left;
+            padding: 10px;
+            border: 3px solid #73ad21;
+        }
+
+        .div2 {
+            padding: 10px;
+            border: 3px solid red;
+        }
+
+        .div3 {
+            float: left;
+            padding: 10px;
+            border: 3px solid #73ad21;
+        }
+
+        .div4 {
+            padding: 10px;
+            border: 3px solid red;
+            clear: left;
+        }
+    </style>
+</head>
+<body>
+    <h2>Without clear</h2>
+    <div class="div1">div1</div>
+    <div class="div2">div2
+        Notice that div2 is after div1 in the HTML code. However, since div1 floats to the lift, 
+        the text in div2 flows around div1.
+
+    </div>
+    
+    <h2>With clear</h2>
+    <div class="div3">div3</div>
+    <div class="div4">div4
+        Notice that div4 is after div3 in the HTML code. However, since div3 floats to the lift, 
+        the text in div4 flows around div3.
+</body>
+</html>
