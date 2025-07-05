@@ -1,0 +1,18 @@
+{
+
+    "compilerOptions": {
+        "rootDir": "../03.type-assertion,type-guard/src",
+        "outDir": "../03.type-assertion,type-guard/build/js",
+        "target": "es6",
+        "noEmitOnError": false,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "lib": ["ESNext", "DOM"],
+        "strict": true
+    },
+    "include": [
+        "../03.type-assertion,type-guard/src/**/*.ts"
+    ]
+
+}

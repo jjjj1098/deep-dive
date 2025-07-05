@@ -1,0 +1,18 @@
+{
+
+    "compilerOptions": {
+        "rootDir": "../04.type,interface/src",
+        "outDir": "../04.type,interface/build/js",
+        "target": "es6",
+        "noEmitOnError": false,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "lib": ["ESNext", "DOM"],
+        "strict": true
+    },
+    "include": [
+        "../04.type,interface/src/**/*.ts"
+    ]
+
+}
